@@ -26,12 +26,16 @@ typedef enum WL_Size {
 	WL_8 = 0,
 	WL_16,
 	WL_24,
-	WL_32 ,
-	WL_64
+	WL_32,
+	WL_64,
+	WL_80,
+	WL_96,
+	WL_120,
+	WL_152
 } wlSize;
 
-const uint8_t WL_ByteSize_Ordinals[] = {1, 2, 3, 4, 8};
-const uint8_t WL_Size_Ordinals[] = {8, 16, 24, 32, 64};
+const uint8_t WL_ByteSize_Ordinals[] = {1, 2, 3, 4, 8, 10, 12, 15, 19};
+const uint8_t WL_Size_Ordinals[] = {8, 16, 24, 32, 64, 80, 96, 120, 152};
 
 typedef uint8_t* WL_Rec;
 
